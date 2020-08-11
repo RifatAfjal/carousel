@@ -85,22 +85,3 @@ function pausePlay() {
     timer = null;
     setTimer();
 }
-
-
-// const slideContainer = document.querySelector('.slideContainer');
-// slideContainer.addEventListener("mouseover",()=>{
-//    if('mouseover'){
-//     clearInterval(interval)
-//    }
-// })
-// slideContainer.addEventListener("mouseout",()=>{
-//     if('mouseout'){
-//         setInterval(() => {
-//             carousel(1)
-//         }, 4000);
-//     }
-// })
-// const interval = setInterval(() => {
-//                     carousel(1)
-//                 }, 4000);
-
